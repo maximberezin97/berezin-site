@@ -1,23 +1,38 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
-<h1 id="header">Hello world.</h1>
-{% load static %}
-<img id="headshot" src="{% static 'images/maxim.png' %}" alt="A headshot of Maxim."/>
-<div id="summary">
-	<p>
-		My name is Maxim. I'm a computer science student at <a href="https://cics.umass.edu/about/about-umass-computer-science">UMass Amherst</a>.
-	</p>
-	<p>
-		Topics I'm interested in include:
-		<ul>
-			<li>Cybersecurity</li>
-			<li>Operating Systems</li>
-			<li>Peer-to-Peer Networking</li>
-			<li>Distributed Systems</li>
-			<li>Blockchain Technology</li>
-			<li>Cryptocurrencies</li>
-		</ul>
-	</p>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col">
+			<h1 id="header">Hello world.</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-2">
+		</div>
+		<div class="col col-lg-auto">
+			{% load static %}
+			<img id="headshot" src="{% static 'images/maxim.png' %}" alt="A headshot of Maxim."/>
+			<div id="summary">
+				<p>
+					My name is Maxim. I'm a computer science student at <a href="https://cics.umass.edu/about/about-umass-computer-science">UMass Amherst</a>.
+				</p>
+				<p>
+					Topics I'm interested in include:
+					<ul>
+						<li>Cybersecurity</li>
+						<li>Operating Systems</li>
+						<li>Peer-to-Peer Networking</li>
+						<li>Distributed Systems</li>
+						<li>Blockchain Technology</li>
+						<li>Cryptocurrencies</li>
+						<li>Net Neutrality</li>
+					</ul>
+				</p>
+			</div>
+		</div>
+		<div class="col-11">
+		</div>
+	</div>
 </div>
 {% endblock %}

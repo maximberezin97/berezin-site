@@ -2,15 +2,18 @@ body {
 	/*background-image: url("{% static 'images/matterhorn.jpg' %}");*/
 	/*-moz-background-size: cover;*/
 	/*-webkit-background-size: cover;*/
-	background-size: cover;
-	background-position: top center !important;
-	background-repeat: no-repeat !important;
-	background-attachment: fixed;
+	/*background-size: cover;*/
+	/*background-position: top center !important;*/
+	/*background-repeat: no-repeat !important;*/
+	/*background-attachment: fixed;*/
+	background-color: #333D51;
 }
 #header {
-	font-family: 'Ubuntu Mono', monospace;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 40;
-	color: #FD7D00;
+	font-weight: 700;
+	/*color: #FD7D00;*/
+	color: #D3AC2B;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	text-align: center;
 }
@@ -19,9 +22,12 @@ body {
 	height: 250px;
 }
 #summary {
-	font-family: 'Ubuntu Mono', monospace;
-	font-size: 16;
-	color: #FD7D00;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-size: 24;
+	font-weight: 300;
+	letter-spacing: : 50px;
+	/*color: #FD7D00;*/
+	color: #D3AC2B;
 }
 /*.sidebar-nav {
     margin-top: 20px;
